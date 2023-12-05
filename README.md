@@ -19,9 +19,9 @@ docker-postgrespro-1c -- это Docker-контейнер PostgreSQL для ис
 
 Для управления контейнером используйте команды:
 
-    docker stop postgrespro-1c
-    docker start postgrespro-1c
-    docker restart postgrespro-1c
+    docker stop pg1c16
+    docker start pg1c16
+    docker restart pg1c16
 
 ## Какой пароль у администратора?
 
@@ -35,11 +35,11 @@ docker-postgrespro-1c -- это Docker-контейнер PostgreSQL для ис
 
 Удалите контейнер:
 
-    docker rm -f postgrespro-1c
+    docker rm -f pg1c16
 
 Удалите образ:
 
-    docker rmi alexanderfefelov/postgrespro-1c
+    docker rmi pg1c16
 
 :fire: Удалите данные:
 
