@@ -1,9 +1,9 @@
 #!/bin/sh
 
-docker run --name postgrespro-1c \
+docker run --name pg1c16 \
   --net host \
   --detach \
   --volume postgrespro-1c-data:/data \
   --volume /etc/localtime:/etc/localtime:ro \
   --env POSTGRES_PASSWORD=password \
-  alexanderfefelov/postgrespro-1c
+  pg1c16

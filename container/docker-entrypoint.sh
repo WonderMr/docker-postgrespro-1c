@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+# export PATH="$PATH:/opt/pgpro/1c-16/bin/"
 # usage: file_env VAR [DEFAULT]
 #    ie: file_env 'XYZ_DB_PASSWORD' 'example'
 # (will allow for "$XYZ_DB_PASSWORD_FILE" to fill in the value of

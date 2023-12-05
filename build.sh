@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build --tag alexanderfefelov/postgrespro-1c .
+docker buildx build --no-cache -t pg1c16 . 
