@@ -8,7 +8,7 @@ docker-postgrespro-1c -- это Docker-контейнер PostgreSQL для ис
 
 Для установки и начального запуска выполните команды:
 
-    git clone https://github.com/alexanderfefelov/docker-postgrespro-1c.git
+    git clone https://github.com/WonderMr/docker-postgrespro-1c.git
     cd docker-postgrespro-1c
     ./build.sh
     ./run.sh
